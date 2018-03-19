@@ -1,6 +1,6 @@
 import { fetchStargazersByProject } from './api';
-import { Resource } from './ExternalLib';
+import { DataMapper } from 'async-structure';
 
-let stargazersByRepository = new Resource(fetchStargazersByProject);
+let stargazersByRepository = new DataMapper(fetchStargazersByProject);
 
 export default stargazersByRepository;

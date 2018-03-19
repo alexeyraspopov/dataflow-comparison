@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "async-structure": "^0.1.0",
     "create-react-context": "^0.2.1",
     "react": "^16.2.0",
     "react-coroutine": "^2.0.0",

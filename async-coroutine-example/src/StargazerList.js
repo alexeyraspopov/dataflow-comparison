@@ -1,12 +1,12 @@
 import React from 'react';
 import Coroutine from 'react-coroutine';
-import { useContext } from './ExternalLib';
+import { useContext } from './Context';
 import stargazersByRepository from './StargazersResource';
 
 export default useContext(Coroutine.create(StargazerListContainer), 'cache');
 
 function* StargazerListContainer({ cache, repository }) {
-  let stargazers = yield stargazersByRepository.read(cache, repository);
+  let stargazers = yield stargazersByRepository.retrieve(cache, repository);
   return <StargazerList stargazers={stargazers} />;
 }
 

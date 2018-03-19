@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider, Cache } from './ExternalLib';
+import { Provider } from './Context';
 import StargazerList from './StargazerList';
+import { IdentityMap } from 'async-structure';
 
-let cache = new Cache();
+let cache = new IdentityMap();
 let repository = 'alexeyraspopov/react-coroutine';
 
 ReactDOM.render(
