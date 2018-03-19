@@ -1,5 +1,4 @@
-import React from 'react';
-import createContext from 'create-react-context';
+import React, { createContext } from 'react';
 
 let { Provider, Consumer } = createContext();
 

@@ -4,10 +4,9 @@
   "private": true,
   "dependencies": {
     "async-structure": "^0.1.0",
-    "create-react-context": "^0.2.1",
-    "react": "^16.2.0",
-    "react-coroutine": "^2.0.0",
-    "react-dom": "^16.2.0",
+    "react": "16.3.0-alpha.2",
+    "react-coroutine": "^2.0.1",
+    "react-dom": "16.3.0-alpha.2",
     "react-scripts": "1.1.1"
   },
   "scripts": {
