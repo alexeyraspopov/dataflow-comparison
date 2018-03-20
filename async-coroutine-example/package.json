@@ -1,5 +1,5 @@
 {
-  "name": "async-redux-example",
+  "name": "async-coroutine-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
